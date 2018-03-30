@@ -1,0 +1,148 @@
+*{
+	padding:0;
+	margin:0;
+}
+html,body{
+	width:100%;
+	height:100%;
+}
+.startPage{
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:999;
+	
+}
+.startPage .startBtn{	
+	position:absolute;
+	width:300px;
+	height:300px;
+	margin:auto;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	
+
+}
+.startPage .startBtn img{
+	width:100%;
+	height:100%;
+	cursor:pointer;
+}
+
+.wrapper{
+	width:100%;
+	height:100%;
+	background-image:url(img/snakeBg.png);
+	background-size:100% 100%;
+	background-repeat:no-repeat; 
+	background-position: center
+}
+.wrapper .side_left{
+	width:13%;
+	height:100%;
+	position:absolute;
+	left:0;
+	top:0;
+	
+}
+.wrapper .side_left img{
+	width:40%;
+	height:20%;
+	position:absolute;
+	left:20%;
+	top:10%;
+	cursor:pointer;
+	display:none;
+}
+.wrapper .main{
+	width: 64%;
+	height:100%;
+	position:absolute;
+	left:17.5%;
+	top:0;
+	
+}
+.wrapper .main .heardTop{
+	width:100%;
+	height:14%;
+}
+.wrapper .main .heardTop .score{
+	width:100%;
+	height:100%;
+	line-height:60px;
+	color:#fff;
+	font-weight:bolder;
+	text-align:center;
+}
+.wrapper .main .content{
+	width:100%;
+	height:69.5%;
+	position:absolute;
+	top:15%;
+}
+.loser{
+	width:100%;
+	height:100%;
+	display:none;
+}
+.loser .con{
+	width:35%;
+	height:35%;
+	position:absolute;
+	margin:auto;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	
+}
+.con img{
+	position:absolute;
+	right:0;
+	top:0;
+	width:30px;
+	height:30px;
+	cursor:pointer;
+}
+.loser .con .close{
+
+	border-radius:20px;
+	text-align:center;
+	line-height:200px;
+	color:#00f;
+	font-weight:bolder;
+	font-size:20px;
+	background-color: #0f0
+}
+.loser .con .loserScore{
+	width:100%;
+	height:50%;
+	display:block;
+	text-align:center;
+	line-height:;
+	color:#f00;
+	font-weight:bolder;
+	font-size:20px;
+	position:absolute;
+	top:120px;
+}
+
+.heard{
+	background-image:url(img/heard.png);
+	background-size: 100% 100%;
+	
+}
+.body{
+	background-image:url(img/body.png);
+	background-size: 100% 100%;
+	
+}
+.food{
+	background-image:url(img/food.png);
+	background-size: 100% 100%;
+	
+}

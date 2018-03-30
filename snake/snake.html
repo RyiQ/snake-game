@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>贪吃蛇游戏</title>
+<link href="snake.css" rel="stylesheet" type="text/css">
+
+</head>
+
+
+<body>
+		<!--游戏开始界面-->
+<div class="startPage" id="startPage">
+	<div class="startBtn" id="startBtn">
+		<img src='img/start.png'>
+	</div>
+</div>
+		<!--游戏内容界面-->
+<div class="wrapper" id="wrapper">
+	<div class="side_left" id="side_left">
+		<img src="img/btn_on.png" id='slideBtn'>
+	</div>
+	<div class="main">
+		<div class="heardTop">
+			<div class="score" id="score">
+				分数：
+				<span class="heardScore" id='heardScore'></span>
+			</div>
+		</div>
+		<div class="content" id='content'>
+			
+		</div>
+	</div>
+</div>
+		<!--游戏结束界面-->
+
+<div class="loser" id='loser'>
+	<div class="con">
+		<img src="img/x.png" id='x'>
+		<div class="close" id='close'>游戏结束，当前得分：</div>
+		<span class="loserScore" id="loserScore"></span>
+	</div>
+</div>
+</body>
+
+<script src="snake.js"></script>
+</html>
